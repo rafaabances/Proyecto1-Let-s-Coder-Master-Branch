@@ -15,6 +15,7 @@
     text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
     position: relative;
     margin: 25px;
+    background-color: rgb(4, 4, 54);
     /* position: relative; */
     /* z-index: 2; */
 }
@@ -253,7 +254,7 @@ a {
     margin-top: 70px;
     margin-bottom: 50px;
     border: solid 3px yellow;
-    background-color: rgba(251, 255, 0, 0.137);
+    background-color: rgb(4, 4, 54);
 }
 
 .proyectos_home {
@@ -317,7 +318,6 @@ a {
 .fondo_tarjeta {
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.082);
     width: 750px;
     margin-left: 390px;
     padding: 20px;
@@ -325,6 +325,7 @@ a {
     background-size: cover;
     border: solid 3px yellow;
     margin-bottom: 10px;
+    background-color: rgb(4, 4, 54);
 }
 
 .fondo_tarjeta img {
@@ -375,7 +376,7 @@ a {
     font-size: 40px;
 }
 
-.fondo_tarjeta  hr {
+.fondo_tarjeta hr {
     width: 90%;
     margin-left: 30px;
     margin-top: 20px;
@@ -391,13 +392,15 @@ a {
 }
 
 footer p {
-    color: yellow;
+    color: white;
     font-size: 30px;
     text-align: center;
     font-family: Georgia;
     text-shadow: 1px 1px 1px yellow;
     margin-top: 20px;
-
+    background-color: rgb(4, 4, 54);
+    border: solid 3px yellow;
+    padding: 5px;
 }
 
 /* .footer .redes{
@@ -433,7 +436,7 @@ footer p {
     border: solid 3px yellow;
     margin-right: 630px;
     margin-left: 630px;
-    background-color: rgba(251, 255, 0, 0.137);
+    background-color: rgb(4, 4, 54);
 }
 
 .conocer {
@@ -442,12 +445,12 @@ footer p {
     text-align: center;
     font-family: Georgia;
     text-shadow: 1px 1px 1px yellow;
+    border: solid 3px yellow;
     padding: 25px;
     position: relative;
     background-image: linear-gradient(135deg, rgba(255, 255, 0, 0.041) 10%, rgba(38, 0, 255, 0.062) 100%);
-    margin-right: 100px;
-    margin-left: 100px;
-    height: 20px;
+    margin-right: 95px;
+    margin-left: 95px;;
 }
 
 .caja_mentores {
@@ -520,6 +523,13 @@ footer p {
 
 .espacio {
     margin-top: 40px;
+    margin-right: 440px;
+    margin-left: 440px;
+}
+
+.espacio p{
+    border: solid 3px yellow;
+    padding: 5px;
 }
 
 .espacio span {
@@ -537,7 +547,7 @@ footer p {
     border: solid 3px yellow;
     margin-right: 650px;
     margin-left: 650px;
-    background-color: rgba(251, 255, 0, 0.137);
+    background-color: rgb(4, 4, 54);
 }
 
 
@@ -552,12 +562,13 @@ footer p {
     font-family: 'Georgia';
     color: white;
     box-shadow: 7px 13px 37px #000;
+    border: solid 3px yellow;
 }
 
 .form-register h2 {
     font-size: 22px;
-    margin-bottom: 20px;
     margin-bottom: 10px;
+    background-color: #24303c;
 }
 
 .controls {
@@ -612,7 +623,7 @@ h2,
 ul,
 .padre,
 dl {
-    background-color: rgba(255, 255, 255, 0.918);
+    background-color: rgb(4, 4, 54);
 }
 
 /* tabla */
@@ -630,37 +641,40 @@ caption,
 td,
 th,
 tr {
-    border: solid 1px black;
+    border: solid 1px yellow;
     text-align: center;
     font-size: 20px;
+    padding: 5px;
 }
 
 caption {
     font-size: 30px;
     margin-bottom: 10px;
-    color: brown;
+    color: white;
     font-weight: bold;
     border: solid 3px yellow;
+    background-color: rgba(4, 4, 54, 0.445);
 }
 
 th {
-    color: blue;
+    color: white;
 }
 
-td{
-    color: blue;
-} 
+td {
+    color: white;
+}
 
 
 tfoot td {
-    color: green;
+    color: white;
     font-weight: bold;
     font-size: 25px;
 }
 
-/* tfoot tr {
-    margin-top: 50px;
-} */
+tfoot {
+    height: 40px;
+    background-color: rgb(4, 4, 54);
+}
 
 /* Listas */
 
@@ -670,7 +684,7 @@ tfoot td {
 ol {
     font-size: 20px;
     margin-bottom: 10px;
-    color: blue;
+    color: white;
     font-weight: bold;
     margin-top: 20px;
 }
@@ -688,22 +702,34 @@ ol {
     margin-bottom: 50px;
 }
 
-.padre h2{
+.padre h2 {
     margin-bottom: 50px;
-    color: brown;
+    margin-top: 10px;
+    color: white;
     margin-left: 350px;
-    background-color: rgba(255, 255, 255, 0.918);
     font-size: 30px;
+    background-color: rgb(4, 4, 54);
+    margin-right: 335px;
+    border: solid 3px yellow;
+    padding: 6px;
+}
+
+.mismocolor {
+    background-color: rgba(255, 255, 255, 0.11);
 }
 
 
-ol li{
-    border: solid 1px black;
+ol li {
+    border: solid 1px yellow;
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 25px;
 }
+
+/* ol div {
+    border: solid 1px black;
+} */
 
 
 /* desordenada */
@@ -711,14 +737,19 @@ ol li{
 ul {
     font-size: 20px;
     margin-bottom: 10px;
-    color: blue;
+    color: white;
     font-weight: bold;
     margin-top: 20px;
 }
 
-.padre ul{
+.padre ul {
     display: flex;
     justify-content: space-evenly;
+}
+
+.padre .deso {
+    margin-right: 315px;
+    margin-left: 340px;
 }
 
 
@@ -730,14 +761,16 @@ ul .disc {
     list-style: disc;
 }
 
-ul li{
-    border: solid 1px black;
+ul li {
+    border: solid 1px yellow;
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 25px;
 }
-    
+
+
+
 
 /* list def */
 
@@ -746,7 +779,7 @@ dl {
     margin-right: 250px;
     font-size: 20px;
     margin-bottom: 10px;
-    color: blue;
+    color: white;
     font-weight: bold;
     margin-top: 50px;
     /* list-style: none; */
@@ -756,10 +789,16 @@ dl {
 
 dl h2 {
     margin-bottom: 10px;
-    margin-left: -15px;
-    color: rgb(165, 42, 42);
+    margin-left: -10px;
+    margin-right: 627px;
+    color: white;
     font-size: 30px;
-    background-color: rgba(255, 255, 255, 0.918);
+    border: solid 3px yellow;
+    padding: 5px;
+}
+
+dl .des{
+    background-color: rgb(4, 4, 54);
 }
 
 dd,
@@ -769,34 +808,139 @@ dt {
 
 dt {
     color: red;
-    text-decoration: underline 2px black;
-    
+    text-decoration: underline 2px yellow;
+
 }
 
 dl hr {
     width: 550px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: solid 1px yellow;
 }
 
 /* Formulario */
+
+form{
+    width: 1000px;
+    background: #24303c;
+    padding: 15px;
+    margin: auto;
+    margin-top: -250px;
+    border-radius: 10px;
+    font-family: 'Georgia';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    border: solid 3px yellow;
+}
+
+fieldset{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input{
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #1f53c5;
+    font-family: 'Georgia';
+    font-size: 18px;
+    color: white;
+}
+
+legend{
+    font-size: 22px;
+    color: white;
+    background-color: rgb(4, 4, 54);
+    border: solid 3px yellow;
+    padding: 5px;
+}
+
+.datos div{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+label{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #1f53c5;
+    font-family: 'Georgia';
+    font-size: 18px;
+    color: white;
+    margin: 20px;
+}
+
+select{
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #1f53c5;
+    font-family: 'Georgia';
+    font-size: 18px;
+    color: white;
+}
+
 
 h1 {
     font-size: 35px;
     margin-top: 50px;
     color: rgb(165, 42, 42);
     font-weight: bold;
-    /* background-color: rgba(0, 255, 34, 0.185); */
-    /* border: solid 1px yellow; */
+    border: solid 3px yellow;
     margin-right: 170px;
-    margin-left: 150px;
+    margin-left: 130px;
+    padding: 5px;
+    margin-bottom: 300px;
+}
 
-    animation-duration: 4s;
-    animation-name: slidein3;
+.formulario{
+    color: white;
+    background-color: rgb(4, 4, 54);
+    margin-right: 600px;
+    padding: 5px;
+    margin-left: 500px;
+}
+
+.botones {
+    width: 10%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 4%;
+    border: solid 3px yellow;
+    margin:20px;
+}
+
+/* fieldset div  .marcar{
+    border: solid 3px yellow;
+    color: yellow;
+} */
+
+textarea{
+    border: solid 3px yellow;
+    border-radius: 1%;
+}
+
+.navegacion{
+    margin-bottom: 20px;
 }
 
 
-@keyframes slidein3 {
+.felicidades {
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+
+@keyframes slidein {
     from {
         margin-left: 100%;
         width: 300%
@@ -815,5 +959,5 @@ h1 {
 }
 
 .felicidades {
-    background-color: rgba(64, 224, 208, 0.075);
+    background-color: rgba(255, 255, 255, 0.479);
 }

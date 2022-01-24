@@ -1,104 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Styles/Style Own.css">
 </head>
+
 <body>
 
-    <h1>Formulario de inscripcion:</h1>
-    <form action="felicidades.html">
-        <fieldset>
-            <legend>Datos personales</legend>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z]{3,15}"
-                placeholder="Tu nombre entre 3 y 15 caracteres ">
-            <label for="apellido">Apellido:</label>
-            <input type="text" name="apellido" id="apellido" placeholder="Indica tu apellido" minlength="3"
-                maxlength="15">
-            <label for="edad">Edad:</label>
-            <input type="number" id="edad" min="20" max="50" disabled>
+    <div class="menu">
 
-        </fieldset>
+        <div>
+            <li><a href="Home Own.html">Home</a></li>
+        </div>
+        <div>
+            <li><a href="Conocenos Own.html">Conocenos</a></li>
+        </div>
+        <div>
+            <li><a href="contacto Own.html">Contacto</a></li>
+        </div>
+        <div>
+            <li><a href="Tabla y lista.html">Tabla y Lista</a></li>
+        </div>
+        <div>
+            <li><a href="Formulario.html">Formulario</a></li>
+        </div>
+
+    </div>
+
+    <div class="cabecera">
+        <div class="logo">
+            <img src="images/images/letscoder-square.jpeg" alt="logo">
+        </div>
+        <p class="título">Let's Coder</p>
+    </div>
+
+    <h1 class="formulario">Formulario de inscripcion:</h1>
+    <form action="felicidades.html">
+
         <fieldset>
             <legend>Datos personales</legend>
             <div class="datos">
                 <div>
                     <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z]{3,15}"
-                        placeholder="Tu nombre entre 3 y 15 caracteres ">
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" name="apellido" id="apellido" placeholder="Indica tu apellido" minlength="3"
-                        maxlength="15">
+                    <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z]{1,15}"
+                        placeholder="Debe tener 3 y 15 caracteres ">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" name="apellidos" id="apellidos" required pattern="[A-Za-z]{10,35}"
+                        placeholder="Indica tus apellidos" minlength="3" maxlength="15">
                     <label for="edad">Edad:</label>
-                    <input type="number" id="edad" min="20" max="50" disabled>
+                    <input type="number" id="edad" min="18" max="70">
                 </div>
                 <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z]{3,15}"
-                        placeholder="Tu nombre entre 3 y 15 caracteres ">
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" name="apellido" id="apellido" placeholder="Indica tu apellido" minlength="3"
-                        maxlength="15">
-                    <label for="edad">Edad:</label>
-                    <input type="number" id="edad" min="20" max="50" disabled>
+                    <label for="DNI">DNI:</label>
+                    <input type="text" name="DNI" id="DNI" required pattern="[A-Z]{3,15}"
+                        placeholder="Número + letra en mayús">
+                    <label for="apellido">Fecha de Nacimiento:</label>
+                    <input type="date" name="fecha de nacimiento" id="fecha de nacimiento"
+                        placeholder="Fecha de nacimiento" minlength="3" maxlength="15">
+                </div>
+                <div>
+                    <label for="número de teléfono/móvil">Número de teléfono/móvil:</label>
+                    <input type="number" id="edad" minlength="9">
+                    <label for="email"> Email</label>
+                    <input type="email" id="email" pattern=".+@gmail.com" size="30" required>
                 </div>
                 <div>
                     <label for="sexo">Sexo:</label>
                     <select name="sexo" id="sexo">
                         <option value="hombre">Hombre</option>
                         <option value="mujer">Mujer</option>
-                        <option value="hombre1">Hombre</option>
-                        <option value="mujer1">Mujer</option>
+                        <option value="No binario">Hombre</option>
                     </select>
 
-                    <label for="html"></label>
-                    <input type="checkbox" id="html">HTML
-                    <label for="css"></label>
-                    <input type="checkbox" id="css">CSS
-                    <label for="javascript"></label>
-                    <input type="checkbox" id="javascript">JAVASCRIPT
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Curso Solicitado</legend>
+
+                <div class="datos cursos">
+
+                    <div>
+
+                        <label for="Full Stack Part Time online">Full Stack Part Time online</label>
+                        <input class="marcar" type="checkbox" id="Full Stack Part Time">Marcar
+                        <label for="Full Stack Full Time">Full Stack Part Time presencial</label>
+                        <input type="checkbox" id="css">Marcar
+                    </div>
+                    <div>
+                        <label for="Full Stack Full Time online">Full Stack Full Time online</label>
+                        <input type="checkbox" id="Full Stack Full Time online">Marcar
+                        <label for="Full Stack Full Time presencial">Full Stack Full Time presencial</label>
+                        <input type="checkbox" id="presencial">Marcar
+                    </div>
+
+                </div>
 
 
-                    <br>
+                <!-- <br> -->
+                <div class="navegacion">
 
-                    <label for="html"></label>
-                    <input type="radio" id="html">HTML
-                    <label for="css"></label>
-                    <input type="radio" id="css">CSS
-                    <label for="javascript"></label>
-                    <input type="radio" id="javascript">JAVASCRIPT
-
-                    <label for="edad">Rango edad:</label>
-                    <input type="range" min="1" max="99">
+                    <label for="facilidad de navegacion">Facilidad de navegación en la web:</label>
+                    <input type="range" min="1" max="100">
                 </div>
             </div>
-
         </fieldset>
-        <fieldset>
-            <legend>Datos personales</legend>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z]{3,15}"
-                placeholder="Tu nombre entre 3 y 15 caracteres ">
-            <label for="apellido">Apellido:</label>
-            <input type="text" name="apellido" id="apellido" placeholder="Indica tu apellido" minlength="3"
-                maxlength="15">
-            <label for="edad">Edad:</label>
-            <input type="number" id="edad" min="20" max="50" disabled>
-
-        </fieldset>
-        <textarea name="" id="" cols="40" rows="10"></textarea>
         
+        <fieldset>
+            <legend>Comentarios de mejora</legend>
+        <textarea name="" id="" cols="80" rows="13"></textarea>
+    </fieldset>
 
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar">
+        <input class="botones" type="submit" value="Enviar">
+        <input class="botones" type="reset" value="Borrar">
 
 
 
     </form>
-    
+
+    <footer class="footer">
+
+        <div>
+            <p>Síguenos en redes sociales!</p>
+        </div>
+
+        <div>
+            <img class="redimg"
+                src="https://cdn.masmovil.es/embed/e651f249c0e0e71ca9e5de83ab3ef38dbe38261609262554/modo-oscuro-facebook-instagram-twitter.jpg"
+                alt="">
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
