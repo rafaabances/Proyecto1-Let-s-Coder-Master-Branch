@@ -1,0 +1,160 @@
+/* //todos */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.texto {
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.fechas {
+    font-size: 35px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.cabecera {
+    background: url(/images/images/background-image.jpg);
+    position: fixed;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.8;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+    border: solid 3px yellow;
+}
+
+.cabecera .logo {
+    margin: auto;
+    height: 180px;
+    width: 110px;
+    position: relative;
+    top: -40px;
+    left: -3%;
+    border: solid 3px yellow;
+}
+
+li {
+    display: inline;
+    background-color: grey;
+}
+
+.menu {
+    width: 14%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    border-style: inset;
+}
+.título {
+    text-align: center;
+    color: darkorange;
+    font-size: 70px;
+    margin-top: 5px;
+    text-shadow: 5px 5px 5px rgb(177, 19, 19);
+}
+
+
+/* Home */
+
+hr {
+    width: 30%;
+    margin-left: 550px;
+}
+
+.número {
+    font-size: 40px;
+}
+
+.horizontal {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.horizontal div {
+    display: inline-block;
+    margin: 20px;
+}
+
+.tercero{
+    margin-left: 25px;
+}
+
+.tercero button {
+    margin-left: 10px;
+}
+
+
+/* contacto */
+
+.contacto span {
+    font-weight: bold;
+}
+
+.contacto {
+    margin-top: 90px;
+}
+
+.espacio{
+    margin: 5px;
+}
+
+/* Conocenos */
+
+.mentores {
+    width: 30%;
+}
+
+.mentores .descripcion {
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.caja_mentores {
+    width: 100%;
+}
+
+.caja_mentores .mentores {
+    display: table-cell;
+}
+
+.conocenos_texto {
+    margin-top: 30px;
+    margin-bottom: 45px;
+    margin-left: 390px;
+    margin-right: 390px;
+}
+
+.mentores img {
+    width: 300px;
+    height: 300px;
+    margin-left: 110px;
+    border-radius: 50%;
+}
+
+.mentor{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}

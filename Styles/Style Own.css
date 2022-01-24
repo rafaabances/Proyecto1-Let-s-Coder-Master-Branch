@@ -1,0 +1,819 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Landing Page */
+
+.texto {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+    position: relative;
+    margin: 25px;
+    /* position: relative; */
+    /* z-index: 2; */
+}
+
+.centrar .texto {
+    margin-top: 20px;
+}
+
+header {
+    margin-top: 20px;
+}
+
+header p {
+    border: solid 2px yellow;
+
+    animation-duration: 4s;
+    animation-name: slidein2;
+
+}
+
+@keyframes slidein2 {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    75% {
+        font-size: 400%;
+        margin-left: 25%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+body .cabeceral {
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: left;
+    margin-bottom: -50px;
+    color: white;
+    font-family: Georgia;
+    text-shadow: 2px 2px 2px yellow;
+    background-color: rgba(122, 77, 131, 0.466);
+    margin-right: 860px;
+    margin-left: 100px;
+    /* z-index: 2;
+    position: relative; */
+}
+
+.logol {
+    height: 150px;
+    width: 250px;
+    margin-left: 1250px;
+    margin-bottom: -20px;
+}
+
+.centrar {
+    margin-left: 200px;
+    margin-right: 130px;
+    margin-top: 10px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 0, 0.116) 10%, rgba(38, 0, 255, 0.13) 100%);
+    height: 260px;
+    width: 1200px;
+    border: solid 3px yellow;
+    /* background-color: rgba(251, 249, 252, 0.068);
+    border-radius: 50%; */
+}
+
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210115/pngtree-digital-blue-future-technology-texture-blue-atmosphere-background-image_525340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    /* opacity: 0.4;
+    z-index: 1; */
+    /* background: url(https://png.pngtree.com/thumb_back/fh260/background/20210115/pngtree-digital-blue-future-technology-texture-blue-atmosphere-background-image_525340.jpg) no-repeat cover yellow; */
+}
+
+body .center img {
+    opacity: 0.7;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: solid 3px yellow;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.noopaciti {
+    opacity: 1;
+    height: 350px;
+    width: 350px;
+    border-radius: 25%;
+}
+
+.consulta {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.boton {
+    background-color: #4CAF50;
+    color: white;
+    text-shadow: 1px 1px 1px yellow;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    border: solid 3px yellow;
+}
+
+a {
+    text-decoration: none;
+}
+
+.land {
+    background-color: rgba(64, 224, 208, 0.452);
+    margin-bottom: 15px;
+    margin-right: 500px;
+    margin-left: 500px;
+    border-radius: 25%;
+    border: solid 1px yellow;
+}
+
+.pie {
+    font-size: 30px;
+}
+
+
+
+/* Home */
+
+.menu {
+    width: auto;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu div {
+    align-self: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: Georgia;
+    background-color: white;
+    font-weight: bold;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+
+
+.cabecera {
+    background: url(/images/images/background-image.jpg);
+    position: fixed;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.8;
+    margin-left: 100px;
+
+
+
+    margin-right: 100px;
+    margin-top: 70px;
+    border: solid 3px yellow;
+}
+
+.cabecera .logo {
+    margin: auto;
+    height: 150px;
+    width: 120px;
+    position: relative;
+    top: -50px;
+    left: -4%;
+    opacity: 0.7;
+    border: solid 3px yellow;
+}
+
+.título {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    margin-top: 5px;
+    text-shadow: 5px 5px 5px rgb(177, 19, 19);
+
+
+    animation-duration: 3s;
+    animation-name: slidein;
+
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+
+.pregunta_home {
+    color: yellow;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    font-family: Georgia;
+    text-shadow: 1px 1px 1px yellow;
+    padding: 20px;
+    position: relative;
+    /* background-image: linear-gradient(135deg, rgba(255, 255, 0, 0.041) 10%, rgba(38, 0, 255, 0.062) 100%); */
+    margin-right: 430px;
+    margin-left: 430px;
+    /* height: -10px; */
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border: solid 3px yellow;
+    background-color: rgba(251, 255, 0, 0.137);
+}
+
+.proyectos_home {
+    display: flex;
+    flex-direction: column;
+}
+
+.proyectos_home div img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: solid 3px rgb(115, 255, 0);
+}
+
+.proyectos_home .calculadora {
+    align-self: center;
+}
+
+.proyectos_home .calculadora p,
+.proyectos_home .proyectos_alinear p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px yellow;
+    background-image: linear-gradient(135deg, rgba(255, 255, 0, 0.281) 10%, rgb(2, 2, 0) 100%);
+    border: solid 3px yellow;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* .proyectos_home .javascript{
+    align-self: flex-end;
+} */
+
+.proyectos_home .proyectos_alinear {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.textoh {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia;
+    text-shadow: 1px 1px 1px yellow;
+    /* margin-right: 150px;
+    margin-left: 150px; */
+    position: relative;
+}
+
+.fechas {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 0, 0.041) 10%, rgba(38, 0, 255, 0.062) 100%);
+    margin-left: -23px;
+}
+
+.fondo_tarjeta {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.082);
+    width: 750px;
+    margin-left: 390px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 3px yellow;
+    margin-bottom: 10px;
+}
+
+.fondo_tarjeta img {
+    opacity: 0.2;
+}
+
+/* .fondo_tarjeta .horizontal{
+    margin-top: 20px;
+} */
+
+.horizontal button {
+    background-color: #4CAF50;
+    color: white;
+    text-shadow: 1px 1px 1px yellow;
+    padding: 15px 32px;
+    font-family: fantasy;
+    font-size: 20px;
+    border-radius: 50%;
+    border: solid 3px yellow;
+}
+
+.segundo button {
+    margin-left: -5px;
+}
+
+.tercero {
+    margin-left: 25px;
+}
+
+.cuarto {
+    margin-left: 10px;
+}
+
+.fondo_tarjeta .horizontal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tercero button {
+    margin-left: -1px;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.número {
+    font-size: 40px;
+}
+
+.fondo_tarjeta  hr {
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    height: 2px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+}
+
+footer p {
+    color: yellow;
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia;
+    text-shadow: 1px 1px 1px yellow;
+    margin-top: 20px;
+
+}
+
+/* .footer .redes{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: -250px;
+    padding: 30px; */
+
+.footer div p {
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+
+
+.footer img {
+    height: 170px;
+    width: 500px;
+    border: solid 3px yellow;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    /* align-self: flex-end; */
+}
+
+
+
+/* Conócenos */
+
+.conoce {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid 3px yellow;
+    margin-right: 630px;
+    margin-left: 630px;
+    background-color: rgba(251, 255, 0, 0.137);
+}
+
+.conocer {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: Georgia;
+    text-shadow: 1px 1px 1px yellow;
+    padding: 25px;
+    position: relative;
+    background-image: linear-gradient(135deg, rgba(255, 255, 0, 0.041) 10%, rgba(38, 0, 255, 0.062) 100%);
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 20px;
+}
+
+.caja_mentores {
+    display: flex;
+    flex-direction: column;
+}
+
+.caja_mentores div img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: solid 3px rgb(115, 255, 0);
+}
+
+/* .caja_mentores .mentor1{
+    align-self: center;
+} */
+
+.caja_mentores .mentores_alinear {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: 50px;
+}
+
+.caja_mentores .mentor1,
+.caja_mentores .mentores_alinear {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px yellow;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.caja_mentores p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px yellow;
+    background-image: linear-gradient(135deg, rgba(255, 255, 0, 0.116) 10%, rgba(2, 2, 0, 0.425) 100%);
+    border: solid 3px yellow;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.caja_mentores .mentor1 p {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.caja_mentores .mentor2 p {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.caja_mentores .mentor3 p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* Contacto */
+
+.espacio {
+    margin-top: 40px;
+}
+
+.espacio span {
+    text-decoration: underline 3px yellow;
+    margin-right: 5px;
+}
+
+.grande {
+    font-size: 25px;
+}
+
+.conta {
+    margin-top: 60px;
+    margin-bottom: -40px;
+    border: solid 3px yellow;
+    margin-right: 650px;
+    margin-left: 650px;
+    background-color: rgba(251, 255, 0, 0.137);
+}
+
+
+
+.form-register {
+    width: 600px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    font-family: 'Georgia';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Georgia';
+    font-size: 18px;
+    color: white;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+/* div{
+    text-align: center;
+} */
+
+
+/* comun a tabla y lista */
+
+table,
+caption,
+h2,
+ul,
+.padre,
+dl {
+    background-color: rgba(255, 255, 255, 0.918);
+}
+
+/* tabla */
+
+table {
+    width: 1015px;
+    height: 600px;
+    border: solid 3px yellow;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+caption,
+td,
+th,
+tr {
+    border: solid 1px black;
+    text-align: center;
+    font-size: 20px;
+}
+
+caption {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: brown;
+    font-weight: bold;
+    border: solid 3px yellow;
+}
+
+th {
+    color: blue;
+}
+
+td{
+    color: blue;
+} 
+
+
+tfoot td {
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* tfoot tr {
+    margin-top: 50px;
+} */
+
+/* Listas */
+
+
+/* ordenada */
+
+ol {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: blue;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.padre ol {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.padre {
+    width: 67%;
+    margin-left: 250px;
+    border: solid 3px yellow;
+    margin-bottom: 50px;
+}
+
+.padre h2{
+    margin-bottom: 50px;
+    color: brown;
+    margin-left: 350px;
+    background-color: rgba(255, 255, 255, 0.918);
+    font-size: 30px;
+}
+
+
+ol li{
+    border: solid 1px black;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+
+/* desordenada */
+
+ul {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: blue;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.padre ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+ul .square {
+    list-style: square;
+}
+
+ul .disc {
+    list-style: disc;
+}
+
+ul li{
+    border: solid 1px black;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+    
+
+/* list def */
+
+dl {
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: blue;
+    font-weight: bold;
+    margin-top: 50px;
+    /* list-style: none; */
+    padding: 20px;
+    border: solid 3px yellow;
+}
+
+dl h2 {
+    margin-bottom: 10px;
+    margin-left: -15px;
+    color: rgb(165, 42, 42);
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.918);
+}
+
+dd,
+dt {
+    padding: 5px;
+}
+
+dt {
+    color: red;
+    text-decoration: underline 2px black;
+    
+}
+
+dl hr {
+    width: 550px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Formulario */
+
+h1 {
+    font-size: 35px;
+    margin-top: 50px;
+    color: rgb(165, 42, 42);
+    font-weight: bold;
+    /* background-color: rgba(0, 255, 34, 0.185); */
+    /* border: solid 1px yellow; */
+    margin-right: 170px;
+    margin-left: 150px;
+
+    animation-duration: 4s;
+    animation-name: slidein3;
+}
+
+
+@keyframes slidein3 {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    75% {
+        font-size: 270%;
+        margin-left: 25%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.felicidades {
+    background-color: rgba(64, 224, 208, 0.075);
+}

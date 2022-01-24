@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <h1>Formulario de inscripcion:</h1>
+    <form action="felicidades.html">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z]{3,15}"
+                placeholder="Tu nombre entre 3 y 15 caracteres ">
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Indica tu apellido" minlength="3"
+                maxlength="15">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" min="20" max="50" disabled>
+
+        </fieldset>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <div class="datos">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z]{3,15}"
+                        placeholder="Tu nombre entre 3 y 15 caracteres ">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Indica tu apellido" minlength="3"
+                        maxlength="15">
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" min="20" max="50" disabled>
+                </div>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z]{3,15}"
+                        placeholder="Tu nombre entre 3 y 15 caracteres ">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Indica tu apellido" minlength="3"
+                        maxlength="15">
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" min="20" max="50" disabled>
+                </div>
+                <div>
+                    <label for="sexo">Sexo:</label>
+                    <select name="sexo" id="sexo">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="hombre1">Hombre</option>
+                        <option value="mujer1">Mujer</option>
+                    </select>
+
+                    <label for="html"></label>
+                    <input type="checkbox" id="html">HTML
+                    <label for="css"></label>
+                    <input type="checkbox" id="css">CSS
+                    <label for="javascript"></label>
+                    <input type="checkbox" id="javascript">JAVASCRIPT
+
+
+                    <br>
+
+                    <label for="html"></label>
+                    <input type="radio" id="html">HTML
+                    <label for="css"></label>
+                    <input type="radio" id="css">CSS
+                    <label for="javascript"></label>
+                    <input type="radio" id="javascript">JAVASCRIPT
+
+                    <label for="edad">Rango edad:</label>
+                    <input type="range" min="1" max="99">
+                </div>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z]{3,15}"
+                placeholder="Tu nombre entre 3 y 15 caracteres ">
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Indica tu apellido" minlength="3"
+                maxlength="15">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" min="20" max="50" disabled>
+
+        </fieldset>
+        <textarea name="" id="" cols="40" rows="10"></textarea>
+        
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+
+
+
+    </form>
+    
+</body>
+</html>
