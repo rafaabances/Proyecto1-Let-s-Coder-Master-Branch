@@ -3,6 +3,6 @@
 
 Replica de una página web con HTML y CSS y darle estilo propio
 
-
+<img src="images/images/letscoder-square.jpeg" alt="logo">
 
 - Realizado por Rafael Abances
