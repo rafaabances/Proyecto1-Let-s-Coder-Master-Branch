@@ -18,7 +18,7 @@
     /* background-color: rgb(4, 4, 54); */
     /* position: relative; */
     /* z-index: 2; */
-    
+
 }
 
 header {
@@ -104,7 +104,7 @@ body .center img {
     border: solid 3px yellow;
 }
 
-.center{
+.center {
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -114,8 +114,8 @@ body .center img {
     opacity: 0.5;
 } */
 
-.noopaciti {
-    opacity: 0,7;
+.center .noopaciti {
+    opacity: 0.9;
     height: 350px;
     width: 350px;
     border-radius: 25%;
@@ -175,7 +175,7 @@ a {
     background-color: black;
     display: flex;
     justify-content: flex-end;
-    
+
 }
 
 .menu div {
@@ -195,18 +195,21 @@ a {
 }
 
 
-@media only screen and (max-width: 700px){
-    .menu{
+@media only screen and (max-width: 700px) {
+    .menu {
+      
+
+        width: auto;
         display: flex;
         flex-direction: column;
-        align-items: left;
-        height: 300px;
-        margin-right: 300px;
-}
+        height: 345px;
+    }
 
-.menu div{
-padding: 20px;
-}
+    .menu div {
+        padding: 20px;
+        /* align-self: flex-start; */
+        margin: 5px;
+    }
 }
 
 
@@ -284,8 +287,8 @@ padding: 20px;
     background-color: rgb(4, 4, 54);
 }
 
-@media only screen and (max-width: 700px){
-    .pregunta_home{
+@media only screen and (max-width: 700px) {
+    .pregunta_home {
         background-color: blueviolet;
         width: 500px;
         height: 90px;
@@ -485,14 +488,15 @@ footer p {
     position: relative;
     background-image: linear-gradient(135deg, rgba(255, 255, 0, 0.041) 10%, rgba(38, 0, 255, 0.062) 100%);
     margin-right: 140px;
-    margin-left: 140px;;
+    margin-left: 140px;
     background-color: rgb(4, 4, 54);
     border-radius: 4%;
 }
 
-/* div .conocenos_texto p  .anchura{
-    background-color: blueviolet;
-} */
+div.conocenos_texto p.anchura{
+    margin-left: 355px;
+    margin-right: 355px;
+}
 
 .caja_mentores {
     display: flex;
@@ -527,7 +531,7 @@ footer p {
     margin-top: 10px;
 }
 
-.caja_mentores h2{
+.caja_mentores h2 {
     border: solid 3px yellow;
     padding: 5px;
 }
@@ -550,7 +554,7 @@ footer p {
     margin-right: 60px;
 }
 
-.caja_mentores .mentor1 h2{
+.caja_mentores .mentor1 h2 {
     margin-left: 660px;
     margin-right: 660px;
     border-radius: 4%;
@@ -561,7 +565,7 @@ footer p {
     margin-right: -10px;
 }
 
-.caja_mentores .mentor2 h2{
+.caja_mentores .mentor2 h2 {
     margin-left: 130px;
     margin-right: 160px;
     border-radius: 4%;
@@ -572,7 +576,7 @@ footer p {
     margin-right: 100px;
 }
 
-.caja_mentores .mentor3 h2{
+.caja_mentores .mentor3 h2 {
     margin-left: 360px;
     margin-right: 360px;
     border-radius: 4%;
@@ -592,10 +596,15 @@ footer p {
     margin-left: 440px;
 }
 
-.espacio p{
+.espacio p {
     border: solid 3px yellow;
-    padding: 5px;
+    padding: 10px;
     background-color: rgb(4, 4, 54);
+}
+
+.contacto .margen{
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
 .espacio span {
@@ -863,7 +872,7 @@ dl h2 {
     padding: 5px;
 }
 
-dl .des{
+dl .des {
     background-color: rgb(4, 4, 54);
 }
 
@@ -887,7 +896,7 @@ dl hr {
 
 /* Formulario */
 
-form{
+form {
     width: 1000px;
     background: #24303c;
     padding: 15px;
@@ -900,13 +909,13 @@ form{
     border: solid 3px yellow;
 }
 
-fieldset{
+fieldset {
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-input{
+input {
     background: #24303c;
     padding: 10px;
     border-radius: 4px;
@@ -916,7 +925,7 @@ input{
     color: white;
 }
 
-legend{
+legend {
     font-size: 22px;
     color: white;
     background-color: rgb(4, 4, 54);
@@ -924,12 +933,12 @@ legend{
     padding: 5px;
 }
 
-.datos div{
+.datos div {
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-label{
+label {
     width: 100%;
     background: #24303c;
     padding: 10px;
@@ -941,7 +950,7 @@ label{
     margin: 20px;
 }
 
-select{
+select {
     background: #24303c;
     padding: 10px;
     border-radius: 4px;
@@ -964,7 +973,7 @@ h1 {
     margin-bottom: 300px;
 }
 
-.formulario{
+.formulario {
     color: white;
     background-color: rgb(4, 4, 54);
     margin-right: 600px;
@@ -982,7 +991,7 @@ h1 {
     font-size: 16px;
     border-radius: 4%;
     border: solid 3px yellow;
-    margin:20px;
+    margin: 20px;
 }
 
 /* fieldset div  .marcar{
@@ -990,12 +999,12 @@ h1 {
     color: yellow;
 } */
 
-textarea{
+textarea {
     border: solid 3px yellow;
     border-radius: 1%;
 }
 
-.navegacion{
+.navegacion {
     margin-bottom: 20px;
 }
 
