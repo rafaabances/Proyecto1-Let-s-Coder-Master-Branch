@@ -12,16 +12,13 @@
     font-size: 20px;
     text-align: center;
     font-family: Georgia;
-    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+    /* text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5); */
     position: relative;
     margin: 25px;
-    background-color: rgb(4, 4, 54);
+    /* background-color: rgb(4, 4, 54); */
     /* position: relative; */
     /* z-index: 2; */
-}
-
-.centrar .texto {
-    margin-top: 20px;
+    
 }
 
 header {
@@ -29,8 +26,6 @@ header {
 }
 
 header p {
-    border: solid 2px yellow;
-
     animation-duration: 4s;
     animation-name: slidein2;
 
@@ -63,8 +58,10 @@ body .cabeceral {
     font-family: Georgia;
     text-shadow: 2px 2px 2px yellow;
     background-color: rgba(122, 77, 131, 0.466);
-    margin-right: 860px;
+    margin-right: 850px;
     margin-left: 100px;
+    border: solid 3px yellow;
+    padding: 5px;
     /* z-index: 2;
     position: relative; */
 }
@@ -79,10 +76,12 @@ body .cabeceral {
 .centrar {
     margin-left: 200px;
     margin-right: 130px;
-    margin-top: 10px;
+    margin-top: 5px;
     background-image: linear-gradient(135deg, rgba(255, 255, 0, 0.116) 10%, rgba(38, 0, 255, 0.13) 100%);
-    height: 260px;
+    height: 270px;
     width: 1200px;
+    margin-top: 20px;
+    background-color: rgb(4, 4, 54);
     border: solid 3px yellow;
     /* background-color: rgba(251, 249, 252, 0.068);
     border-radius: 50%; */
@@ -99,20 +98,24 @@ body {
 }
 
 body .center img {
-    opacity: 0.7;
+    opacity: 1;
     margin-left: 50px;
     margin-right: 50px;
     border: solid 3px yellow;
 }
 
-.center {
+.center{
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
+/* .center img{
+    opacity: 0.5;
+} */
+
 .noopaciti {
-    opacity: 1;
+    opacity: 0,7;
     height: 350px;
     width: 350px;
     border-radius: 25%;
@@ -121,6 +124,12 @@ body .center img {
 .consulta {
     margin-top: 50px;
     margin-bottom: 25px;
+    border: solid 3px yellow;
+    background-color: rgb(4, 4, 54);
+    margin-left: 550px;
+    margin-right: 550px;
+    height: auto;
+    padding: 10px;
 }
 
 .boton {
@@ -152,6 +161,8 @@ a {
 
 .pie {
     font-size: 30px;
+    border-radius: 25%;
+    padding: 15px;
 }
 
 
@@ -164,6 +175,7 @@ a {
     background-color: black;
     display: flex;
     justify-content: flex-end;
+    
 }
 
 .menu div {
@@ -175,12 +187,27 @@ a {
     color: black;
     font-size: 15px;
     font-family: Georgia;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.952);
     font-weight: bold;
     padding: 15px;
     margin-right: 10px;
+    border: solid 3px yellow;
 }
 
+
+@media only screen and (max-width: 700px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        height: 300px;
+        margin-right: 300px;
+}
+
+.menu div{
+padding: 20px;
+}
+}
 
 
 .cabecera {
@@ -255,6 +282,14 @@ a {
     margin-bottom: 50px;
     border: solid 3px yellow;
     background-color: rgb(4, 4, 54);
+}
+
+@media only screen and (max-width: 700px){
+    .pregunta_home{
+        background-color: blueviolet;
+        width: 500px;
+        height: 90px;
+    }
 }
 
 .proyectos_home {
@@ -449,9 +484,15 @@ footer p {
     padding: 25px;
     position: relative;
     background-image: linear-gradient(135deg, rgba(255, 255, 0, 0.041) 10%, rgba(38, 0, 255, 0.062) 100%);
-    margin-right: 95px;
-    margin-left: 95px;;
+    margin-right: 140px;
+    margin-left: 140px;;
+    background-color: rgb(4, 4, 54);
+    border-radius: 4%;
 }
+
+/* div .conocenos_texto p  .anchura{
+    background-color: blueviolet;
+} */
 
 .caja_mentores {
     display: flex;
@@ -486,13 +527,19 @@ footer p {
     margin-top: 10px;
 }
 
+.caja_mentores h2{
+    border: solid 3px yellow;
+    padding: 5px;
+}
+
 .caja_mentores p {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     color: white;
     text-shadow: 1px 1px 1px yellow;
-    background-image: linear-gradient(135deg, rgba(255, 255, 0, 0.116) 10%, rgba(2, 2, 0, 0.425) 100%);
+    /* background-image: linear-gradient(135deg, rgba(255, 255, 0, 0.116) 10%, rgba(2, 2, 0, 0.425) 100%); */
+    background-color: rgb(4, 4, 54);
     border: solid 3px yellow;
     padding: 5px;
     margin-top: 10px;
@@ -503,14 +550,32 @@ footer p {
     margin-right: 60px;
 }
 
+.caja_mentores .mentor1 h2{
+    margin-left: 660px;
+    margin-right: 660px;
+    border-radius: 4%;
+}
+
 .caja_mentores .mentor2 p {
     margin-left: -10px;
     margin-right: -10px;
 }
 
+.caja_mentores .mentor2 h2{
+    margin-left: 130px;
+    margin-right: 160px;
+    border-radius: 4%;
+}
+
 .caja_mentores .mentor3 p {
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.caja_mentores .mentor3 h2{
+    margin-left: 360px;
+    margin-right: 360px;
+    border-radius: 4%;
 }
 
 .zoom:hover {
@@ -530,6 +595,7 @@ footer p {
 .espacio p{
     border: solid 3px yellow;
     padding: 5px;
+    background-color: rgb(4, 4, 54);
 }
 
 .espacio span {
