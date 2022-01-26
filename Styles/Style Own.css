@@ -197,7 +197,7 @@ a {
 
 @media only screen and (max-width: 700px) {
     .menu {
-      
+
 
         width: auto;
         display: flex;
@@ -427,41 +427,51 @@ a {
     display: flex;
     justify-content: space-around;
     width: auto;
+    background-color: rgb(4, 4, 54);
+    border: dotted 3px yellow;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 footer p {
     color: white;
     font-size: 30px;
-    text-align: center;
     font-family: Georgia;
     text-shadow: 1px 1px 1px yellow;
-    margin-top: 20px;
     background-color: rgb(4, 4, 54);
-    border: solid 3px yellow;
-    padding: 5px;
+    border: double 3px yellow;
+    padding: 10px;
 }
 
-/* .footer .redes{
-    display: flex;
-    justify-content: space-between;
-    /* margin-left: -250px;
-    padding: 30px; */
 
 .footer div p {
-    align-items: center;
-    margin-top: 150px;
-    margin-left: 50px;
+    margin-top: 60px;
 }
 
 
 
 .footer img {
-    height: 170px;
-    width: 500px;
-    border: solid 3px yellow;
-    margin-top: 80px;
+    height: 90px;
+    width: 90px;
+    margin-top: 40px;
     margin-bottom: 20px;
+    padding: 10px;
     /* align-self: flex-end; */
+}
+
+.videodiv{
+    margin-left: 520px;
+    margin-right: 545px;
+    margin-top: 50px;
+    border: solid 3px yellow;
+    background-color: rgb(4, 4, 54);
+}
+
+.video{
+    width: 450px;
+    height: 450px;
 }
 
 
@@ -493,7 +503,7 @@ footer p {
     border-radius: 4%;
 }
 
-div.conocenos_texto p.anchura{
+div.conocenos_texto p.anchura {
     margin-left: 355px;
     margin-right: 355px;
 }
@@ -550,8 +560,8 @@ div.conocenos_texto p.anchura{
 }
 
 .caja_mentores .mentor1 p {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .caja_mentores .mentor1 h2 {
@@ -602,7 +612,7 @@ div.conocenos_texto p.anchura{
     background-color: rgb(4, 4, 54);
 }
 
-.contacto .margen{
+.contacto .margen {
     margin-right: 150px;
     margin-left: 150px;
 }
@@ -684,6 +694,22 @@ div.conocenos_texto p.anchura{
     margin: 16px 0;
     font-size: 16px;
 }
+
+.mapa{
+    border: solid 3px yellow;
+    margin-left: 90px;
+    position: relative;
+    width: 470px;
+    height: 470px;
+    background-color: rgb(4, 4, 54);
+}
+
+iframe{
+    width: 464px;
+    height: 464px;
+    padding: 5px;
+}
+
 
 /* div{
     text-align: center;
