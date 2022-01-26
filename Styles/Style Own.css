@@ -214,13 +214,13 @@ a {
 
 
 .cabecera {
-    background: url(/images/images/background-image.jpg);
+    background: url(/Spring1/images/images/background-image.jpg);
     position: fixed;
     height: auto;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     margin-left: 100px;
 
 
