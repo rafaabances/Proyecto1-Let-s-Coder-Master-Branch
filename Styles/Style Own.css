@@ -214,17 +214,13 @@ a {
 
 
 .cabecera {
-    background: url(/Spring1/images/images/background-image.jpg);
+    background: url(https://www.cronista.com/files/image/444/444601/61f5f79a6db3b.jpg);
     position: fixed;
     height: auto;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    opacity: 0.8;
     margin-left: 100px;
-
-
-
     margin-right: 100px;
     margin-top: 70px;
     border: solid 3px yellow;
